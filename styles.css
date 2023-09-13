@@ -1,0 +1,82 @@
+body{
+  background-image: url(https://thumbs.dreamstime.com/b/programming-code-coding-hacker-background-icon-made-binary-digital-data-streaming-matrix-digits-vector-illustration-180655448.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1, h3{
+  text-align: center;
+  color:rgb(218, 205, 255);
+
+ 
+}
+h3{
+  padding: 0 0 2rem 0;
+}
+form {
+  width: 65vw;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  font-size: 24px;
+  background-color: rgba(36, 22, 74, 0.8);
+  color:rgb(218, 205, 255);
+  padding: 2rem;
+  border-radius: 10px;
+}
+footer{
+  text-align: center;
+}
+
+  
+
+.inline{
+  display:flex;
+  margin: 0.25rem 0.5rem 0.25rem 0 ;
+  align-items: center;
+  
+
+}
+.block1{
+  display: block;
+  width: 100%;
+  height: 3rem;
+  border: solid;
+  border-color: rgba(0,255,255, 0.3);
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: .5rem auto;
+}
+
+select{
+  display: block;
+  width: 100%;
+  height: 3rem;
+  border: solid;
+  border-color: rgba(0,255,255, 0.3);
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: .5rem auto;
+}
+
+textarea{
+  display: block;
+  width: 100%;
+  height: 10rem;
+  border: solid;
+  border-color: rgba(0,255,255, 0.3);
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: .5rem auto;
+
+}
+input[type="submit"]{
+  display: block;
+  width: 100%;
+  height: 3rem;
+  border: solid;
+  border-color: rgba(0,255,255, 0.3);
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 2rem auto;
+}
